@@ -1,0 +1,10 @@
+{
+  "name": "University of Queensland",
+  "short_name": "UQ",
+  "country": "AU",
+  "login": {
+    "start_url": "https://learn.uq.edu.au/auth-saml/saml/login?apId=_154_1",
+    "target_url": "https://learn.uq.edu.au/webapps/portal/execute/defaultTab"
+  },
+  "api_url": "https://learn.uq.edu.au"
+}

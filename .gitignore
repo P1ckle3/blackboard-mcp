@@ -1,0 +1,30 @@
+# Secrets / session state — these live in ~/.blackboard_mcp, but never commit a stray copy
+.blackboard_mcp/
+session.json
+credentials.json
+.env
+.env.*
+*.pem
+*.key
+
+# Downloads
+downloads/
+blackboard/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

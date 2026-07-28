@@ -1,0 +1,20 @@
+{
+  "_comment": [
+    "Run 'python -m blackboard_mcp --login' once before first use, and again",
+    "whenever the cached session expires. Tools fail fast with that hint rather",
+    "than hanging the client while a browser waits for an Okta push.",
+    "BB_DOWNLOAD_ROOT is optional; it defaults to ~/Downloads/blackboard, and is",
+    "the only way to put downloads outside your home directory. To change the",
+    "folder from chat instead, use the set_download_root tool.",
+    "All file writes are confined to that directory."
+  ],
+  "mcpServers": {
+    "blackboard-uq": {
+      "command": "blackboard-mcp",
+      "args": [],
+      "env": {
+        "BB_DOWNLOAD_ROOT": "C:\\Users\\YOUR_NAME\\Downloads\\blackboard"
+      }
+    }
+  }
+}
